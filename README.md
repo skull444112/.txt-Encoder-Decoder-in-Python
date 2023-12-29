@@ -1,7 +1,4 @@
 <html>
-<head>
-    <title>Python Encoder and Decoder</title>
-</head>
 <body>
     <h1>Python Encoder and Decoder</h1>
     <p>This is a Python project that encodes and decodes text files using a random substitution cipher. You can choose the file name and path, and the program will create new files with the encoded or decoded text.</p>
