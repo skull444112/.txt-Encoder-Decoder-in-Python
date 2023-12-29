@@ -8,8 +8,6 @@ random.shuffle(key)
 main = zip(chars, key)
 main = list(main)
 
-print(f"Dict:\n{main}\n==========")
-
 def fileconf():
     path = input("Enter the path of the file: ")
     path += "\\"
