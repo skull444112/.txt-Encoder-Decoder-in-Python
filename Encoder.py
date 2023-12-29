@@ -52,10 +52,11 @@ running = True
 while running:
     options = int(input("Choose an option: \n1-Encode\n2-Decode\n3-Exit\n++>"))
 
-    match options:
-        case 1:
-            encode()
-        case 2:
-            decode()
-        case 3:
-            running = False
+    if options == 1:
+        encode()
+    elif options == 2:
+        decode()
+    elif options == 3:
+        running = False
+    else:
+        print("Invalid Input!")
